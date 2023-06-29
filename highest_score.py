@@ -1,6 +1,6 @@
 # this calculates the highest scores among inputs from users
 
-def highest_score():
+def highest_score() -> int:
     student_scores = input("Input a list of student scores ").split()
     for n in range(0, len(student_scores)):
         student_scores[n] = int(student_scores[n])
